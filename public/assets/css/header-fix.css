@@ -1,0 +1,15 @@
+/* PAKSA semua kondisi header menjadi kuning di semua halaman */
+:root body .header,
+:root body.scrolled .header,
+:root body.index-page .header,
+:root body.index-page.scrolled .header {
+    background-color: #ffc107 !important;
+    --background-color: #ffc107 !important;
+}
+
+/* Paksa juga warna teks agar tetap terlihat */
+.header .logo h1,
+.header .sitename,
+.header .navmenu a {
+    color: #000 !important;
+}
